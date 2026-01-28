@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+
+/******************** 
+    Navigation Bar 
+********************/
+nav {
+    padding: 16px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo {
+    width: 139px;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.menu p {
+    font-weight: 500;
+
+}
+
+button {
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #469165;
+    color: white;
+}
+
+.hero {
+    height: 674px;
+    width: 100%;
+    background-image: url(../assets/cropped-hands-woman-writing-book\ 1.png);
+    padding: 70px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.early-access {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px 12px;
+    gap: 6px;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+}
+.early {
+    height: 16px;
+    width: 16px;
+}
+.early-access>p {
+    color: #469165;
+    font-weight: 500;
+}
