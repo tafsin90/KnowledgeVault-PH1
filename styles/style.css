@@ -45,6 +45,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-weight: 600;
 }
 
 .btn:hover {
@@ -268,4 +269,28 @@ nav {
 .list > p{
     color: #001931;
     font-weight: 500;
+}
+
+/******************** 
+    ready? Section 
+********************/
+.ready{
+    margin: 0 120px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.ready h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+}
+.ready > p{
+    color: #627382;
 }
